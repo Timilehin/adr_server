@@ -21,5 +21,5 @@ def predict():
     return "<h1> Welome to the Yoruba Diacritizer<h1> <br> Undiacritized: " + user_input + "<br> <br> Diacritized: " + result + "<br> <br> <a href='/'>Diacritize more</a>"
     
 if __name__ == '__main__':
-    print("Loading PyTorch model and Flask starting server ...")
+    print("Flask starting server ...")
     app.run()
